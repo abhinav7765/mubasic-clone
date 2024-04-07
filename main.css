@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Suisseintl, sans-serif;
+}
+.left{
+    display: flex;
+    width:50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fac670;
+}
+.leftContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100vh;
+}
+.leftTop{
+    display: flex;
+    position: relative;
+    margin-top: 5vh;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+}
+
+.leftTop a{
+    color: black;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 1000;
+
+}
+.leftIcon{
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 30px;
+    
+}
+.leftCenter{
+    align-items: center;
+    justify-content: center;
+    max-width: 30em;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    margin-top: 15vh;
+}
+.leftCenter h1{
+    font-size: 5em;
+    line-height: 0.8;
+    font-weight: 900;
+}
+.leftCenter span{
+    color: #f37925;
+}
+.leftBottom{
+    
+margin-top: 8vh;
+
+}
+.leftBottom p{
+  
+    font-size: 1.1em;
+    max-width: 15em;
+    line-height: 0.9;
+    font-weight: lighter;
+}
+.right{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.tiles{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    position: fixed;
+   right :0;
+}
+.tileA{
+    width: 90%;
+    height: 10vh;
+    background-color: #f37925;
+    margin-top: 10px;
+    border-radius: 30% left;
+}
+.tileB{
+    width: 90%;
+    height: 10vh;
+    background-color: #f37925;
+    margin-top: 10px;
+    border-radius: 30% left;
+}
+.tileH{
+    width: 90%;
+    height: 10vh;
+    background-color: #f37925;
+    margin-top: 10px;
+    border-radius: 30% left;
+}
+.tileI{
+    width: 90%;
+    height: 10vh;
+    background-color: #f37925;
+    margin-top: 10px;
+    border-radius: 30% left;
+}
+.tileN{
+    width: 90%;
+    height: 10vh;
+    background-color: #f37925;
+    margin-top: 10px;
+    border-radius: 30% left;
+}
+.tileA{
+    width: 90%;
+    height: 10vh;
+    background-color: #f37925;
+    margin-top: 10px;
+    border-radius: 30% left;
+}
+.tileV{
+    width: 90%;
+    height: 10vh;
+    background-color: #f37925;
+    margin-top: 10px;
+    border-radius: 30% left;
+}
